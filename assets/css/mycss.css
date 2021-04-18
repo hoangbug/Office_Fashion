@@ -1,0 +1,27 @@
+.option_product {
+    display: flex;
+    flex-direction: row;
+}
+
+.option {
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    background: #f8f8f8;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    padding: 5px -1px 5px 5px;
+    margin: 10px 20px 0px 0px;
+    transition: 0.3s;
+}
+.option:hover{
+    background-color: #2ecc71;
+    color: white;
+    transition: 0.3s;
+}
+
+.link-wishlist{
+    cursor: pointer;
+}
