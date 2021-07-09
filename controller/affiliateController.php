@@ -74,11 +74,11 @@
 
         public function programManage_c()
         {
-            if(isset($_SESSION['affiliate_id'])){
-                $affiliate_id = $_SESSION['affiliate_id'];
-                $selectProgramAffiliate = $this->affiliate->selectAffiliateId_m($affiliate_id);
+            // if(isset($_SESSION['affiliate_id'])){
+            //     $affiliate_id = $_SESSION['affiliate_id'];
+            //     $selectProgramAffiliate = $this->affiliate->selectAffiliateId_m($affiliate_id);
                 include_once 'views/affiliate/programManage.php';
-            }
+            // }
         }
 
         public function insertGiftCodeOne_c($cate_id, $affiliate_id, $change_code, $gift_code, $type_code, $quantity)

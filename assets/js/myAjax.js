@@ -14,6 +14,8 @@ $(document).on('click', '.viewsProgram', function() {
     }
 });
 
+
+
 //* viewLink affiliate
 $(document).on('click', '.viewsLink', function() {
     var program_id = $(this).attr('program_id');
@@ -102,8 +104,8 @@ $(document).on('click', '.sizeProduct', function(e) {
     $('.checkSize').css({ 'background': 'white' });
     $('#noti-checksize').html('');
 });
-
-
+   
+   
 // so lượng tăng giảm
 $('#qty').mouseleave(function() {
     var quantity = $('#qty').val();
@@ -134,7 +136,7 @@ $('.increase').click(function() {
         $('.increase').attr('readonly', '');
     }
 });
-
+  
 //add cart
 $(document).on('click', '.addProductToCart', function(e) {
     e.preventDefault();
@@ -280,7 +282,7 @@ $(document).ready(function() {
                 }
             });
         }
-    }
+    }  
 
     $('#load_comment').click(function() {
         load_comment_data();
@@ -319,7 +321,7 @@ $(document).ready(function() {
                         form_data.append("member", member_id);
                     }
                 }
-            }
+            }    
             if (error_images == '') {
                 $.ajax({
                     url: "server/product/loadComment.php",

@@ -12,7 +12,7 @@
                     <div class="sc" id="sc"></div>
                 </div>
             </div>
-        </div>
+        </div>  
         <div class="col-md-4"></div>
         <div class="col-md-4" style="display: flex; justify-content: flex-start; align-items: center;">
             <div class="dropdown-account">

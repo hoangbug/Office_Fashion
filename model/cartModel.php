@@ -123,7 +123,7 @@
             $result->execute();
             return $result->fetch(PDO::FETCH_ASSOC);
         }
-
+  
         //* update money affiliate partner
         protected function updateAffiliate_m($affiliate_id, $total_rose){
             $sql = "UPDATE `tbl_affiliate_partner` SET `total_rose`=:total_rose WHERE `id`=:affiliate_id";

@@ -14,7 +14,7 @@ if (isset($_POST['quantity']) && isset($_POST['product_id']) && isset($_POST['to
 
     // check product exists
     $checkExistsProduct = $cart->checkExistsProduct($product_id);
-
+  
     //check quantity size
     if ($sizeDefault == 1) {
         $name_size = 'default';
@@ -52,7 +52,7 @@ if (isset($_POST['quantity']) && isset($_POST['product_id']) && isset($_POST['to
                 <span style="font-size: 40px; border-radius: 50%;padding :10px; color:white ;background:#00CCCC" class="glyphicon glyphicon-ok" aria-hidden="true"></span>
                 <p style="margin-top:20px;font-size: 20px; color:white">Sản phẩm đã được thêm vào Giỏ hàng</p>
             </div>
-
+    
             <?php
         } else {
             $checkCaseCart = 0;
@@ -115,4 +115,4 @@ if (isset($_POST['quantity']) && isset($_POST['product_id']) && isset($_POST['to
         }
     }
 }
-?>
+?>  
